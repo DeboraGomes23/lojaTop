@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+}
+
+h1, h2{
+    color: blue
+}
+
+h1:hover{
+    color: aqua;
+    cursor: pointer
+}
+
+p {
+    color:green;
+}
+
+.cor-laranja {
+    color: rgb(255, 167, 3);
+    cursor:pointer
+}
+
+.cor-laranja:hover{
+    color: rgb(232, 191, 88);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
