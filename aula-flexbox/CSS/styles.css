@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #bbb;
+}
+
+.container-dos-blocos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 980px;
+}
+.bloco{
+    width: 100px;
+    height: 200px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+} 
+
+.bloco:hover {
+    border: 2px solid red;
+}
